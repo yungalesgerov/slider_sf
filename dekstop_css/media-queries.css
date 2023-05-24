@@ -1,0 +1,601 @@
+@media screen and (max-width:376px) {
+    body {
+        max-width: 375px;
+    }
+
+    .main-desktop-container {
+        /* min-width: 375px; */
+        max-width: 375px;
+        height: 5159px;
+        /* background-color: aqua; */
+
+    }
+
+    .main-header {
+        height: 57px;
+        max-width: 375px;
+        /* background-color: red; */
+    }
+
+    .main-content {
+        max-width: 375px;
+        height: 5100px;
+
+    }
+
+    .main-bg {
+        height: 476px;
+        max-width: 375px;
+
+        background: url("../image/about-img.png");
+        background-size: cover;
+        width: 100%;
+        /* height: 707px; */
+
+    }
+
+    .main-overlay {
+        max-width: 375px;
+        height: 476px;
+    }
+
+    .main-footer {
+        /* min-width: 375px; */
+        display: none;
+
+    }
+
+    .main-links {
+        display: none;
+    }
+
+    .request-btn {
+        display: none;
+    }
+
+    .repair {
+        min-width: 176px;
+        height: 10px;
+    }
+
+    .number {
+        min-width: 107px;
+        height: 12px;
+        float: right;
+    }
+
+    .about {
+        width: 90.3%;
+        height: 331px;
+        margin-left: 4.8%;
+        order: -1;
+        padding-top: 85px;
+    }
+
+    .about-description {
+        width: 100%;
+        height: 94px;
+        padding-top: 16px;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 135.84%;
+    }
+
+    .about-info {
+        height: 60px;
+        color: #FFFFFF;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 22px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 132.83%;
+        text-transform: uppercase;
+    }
+
+    .title-buttons {
+        display: inline-block;
+
+    }
+
+    .cost {
+        width: 171.3%;
+
+    }
+
+    .submit {
+        margin-top: 26px;
+        width: 171.3%;
+    }
+
+    .fp-switch-elem {
+        display: none;
+    }
+
+    .fp-navbar {
+        display: none;
+    }
+
+    .fp-content-image {
+        display: none;
+    }
+
+    .fp-content-projects {
+        /* background-color: red; */
+        height: 666px;
+    }
+
+    .fp-content-projects h2 {
+        padding-top: 36px;
+        /* margin: 0 auto; */
+        margin-left: 33%;
+        width: 17.56%;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 138.6%;
+        /* or 30px */
+        /* float: center; */
+        text-align: center;
+        letter-spacing: -0.07em;
+        text-transform: uppercase;
+    }
+
+    .first-part {
+        height: 1553px;
+    }
+
+    .completed-projects {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 158.48%;
+        text-align: center;
+        width: 83%;
+        margin: 0 auto;
+        /* height: 86px; */
+    }
+
+    .completed-projects-description {
+        padding-bottom: 36px;
+    }
+
+    .fp-mobile-pic {
+        min-width: 326px;
+        height: 241.55px;
+        /* margin: 0 auto; */
+        /* margin-top: 10px; */
+        margin-left: -10.2%;
+        background: url(/desktop.sf/image/cp-tv-img.png) center no-repeat;
+        background-size: cover;
+        display: flex;
+    }
+
+    .fp-mobile-left {
+        padding-left: 14px;
+        padding-top: 103px;
+    }
+
+    .fp-mobile-right {
+        /* float: right; */
+        padding-left: 227px;
+        padding-top: 100px;
+    }
+
+    .control-container {
+        /* display: none; */
+        /* background-color: aquamarine; */
+        margin-top: 390px;
+        height: 598px;
+    }
+
+    .control-title {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 138.6%;
+        /* or 30px */
+        width: 224px;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 58px;
+    }
+
+    .control-logo {
+        /* background-color: red; */
+        padding: 0;
+        margin: 0;
+        padding-top: 33px;
+        padding-bottom: 41px;
+        margin-left: 131px;
+        width: 100px;
+        margin: 0 auto;
+
+    }
+
+    .control-hr {
+        width: 32px;
+    }
+
+    .control-broadcast {
+        width: 325px;
+        height: 207px;
+        /* background-color: red; */
+        background: url(../image/mobile-control.png) center no-repeat;
+    }
+
+    .control-broadcast-overlay {
+        height: 100%;
+    }
+
+    .start-stop {
+        /* background-color: red; */
+        padding-top: 30px;
+        margin: 0 auto;
+    }
+
+    .control-line-mob {
+        width: 55px;
+        background-color: orange;
+        height: 1.54px;
+        /* padding-top: 40px; */
+        margin: 0 auto;
+        margin-top: 60px;
+
+    }
+
+    .control-desc-mob {
+        width: 325px;
+        height: 107px;
+        /* background-color: firebrick; */
+        margin-top: 21.46px;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 169.8%;
+        /* or 19px */
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .mob-user-content {
+        /* margin-left: 69.12px; */
+        /* width: 1305.6px; */
+        display: inline-block;
+        width: 325px;
+        height: 240px;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 21px;
+        /* padding-top: 61.05px; */
+        color: rgba(255, 255, 255, 0.5);
+        /* background-color: red; */
+    }
+
+    .custom-checkbox {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+        /* background-color: #E3B873; */
+        /* color: #E3B873; */
+
+    }
+
+    custom-checkbox+label {
+        display: inline-flex;
+        align-items: center;
+        /* -webkit-user-select: none; */
+    }
+
+    .custom-checkbox+label::before {
+        content: '';
+        display: inline-block;
+        width: 1.15em;
+        height: 1.15em;
+        flex-shrink: 0;
+        flex-grow: 0;
+        border: 1px solid #adb5bd;
+        border-radius: 0.25em;
+        margin-right: 0.5em;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 50% 50%;
+    }
+
+    .custom-checkbox:checked+label::before {
+        border-color: #E3B873;
+        background-color: #E3B873;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+    }
+
+    .agree {
+        margin-top: -24px;
+        padding-bottom: 32.43px;
+        /* margin-left: 30px; */
+        margin-left: 7.3%;
+        /* background-color: #E3B873; */
+        width: 300px;
+        height: 20px;
+        color: #FFFFFF;
+    }
+
+    input {
+        all: unset;
+        width: 325px;
+    }
+
+    .user-input-name {
+        /* all: unset; */
+        padding-bottom: 62.99px;
+    }
+
+    .user-input-phone {
+        padding-bottom: 26.54px;
+    }
+
+    .accept {
+        /* background-color: aqua; */
+        padding: 0;
+        /* padding-top: ; */
+        /* margin-left: -100px; */
+        width: 325px;
+        height: 18px;
+    }
+
+    .user-content-btn {
+        width: 325px;
+        margin-top: 40px;
+    }
+
+    .second-part-mob-container {
+        display: none;
+    }
+
+    .img-service {
+        display: none;
+    }
+
+    .pig-logo-rectangle {
+        display: none;
+    }
+
+    .request-table {
+        display: none;
+    }
+
+    .second-part {
+        background-color: #FFFFFF;
+        height: 2030px;
+    }
+
+    .client-content {
+        display: none;
+    }
+
+    .sp-line-logo {
+        /* width: 32px; */
+    }
+
+    .sp-logo {
+        width: 257px;
+        height: 71px;
+        margin-top: 81px;
+    }
+
+    .types-list {
+        display: block;
+        /* align-items: space-between; */
+        justify-content: none;
+    }
+
+    .types-list-item {
+        margin-bottom: 40px;
+        height: 484px;
+    }
+
+    .types-list-item-img {
+        height: 365px;
+    }
+
+    .card-text {
+        height: 241px;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 169.8%;
+        color: #959595;
+        margin-left: 0;
+    }
+
+    .card-price {
+        margin-left: 0;
+        margin-top: -20px;
+        height: 40px;
+    }
+
+    .card-price-text {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 138.6%;
+        /* or 21px */
+        margin-top: 0px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+    .second-part-mob-title {
+        width: 325px;
+        height: 66px;
+        margin-top: 1000px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 138.6%;
+        /* or 30px */
+
+        text-align: center;
+        text-transform: uppercase;
+
+        color: #E3B873;
+    }
+
+    .third-part {
+        display: none;
+    }
+
+    .third-part-overlay {
+        display: none;
+    }
+
+    .question-container {
+        margin-top: 600px;
+    }
+
+    .second-part-mob-img {
+        width: 100%;
+        height: 242px;
+        background: url(/desktop.sf//image/sp-mobile.png) center no-repeat;
+        background-color: #FFFFFF;
+        display: flex;
+    }
+
+    .switch-left {
+        margin-left: 8%;
+        padding-top: 103px;
+    }
+
+    .switch-right {
+        margin-left: 65%;
+        padding-top: 100px;
+    }
+
+    .contact-address {
+        background: black;
+        margin-top: -200px;
+    }
+    .contact-address-container {
+        width: 100%;
+        margin: 0;
+    }
+    .question-container {
+        width: 100%;
+        height: 406px;
+        margin: 0;
+        padding: 0;
+        /* margin-left: -56px; */
+        /* margin-top: 220px; */
+        margin-top: 20px;
+        background-color: black;
+        position:inherit;
+    }
+
+    .merge-inputs {
+        display: inline-block;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .third-input {
+        width: 90%;
+    }
+
+    .accept-3 {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .for-btn {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .contact-address-overlay {
+        background: none;
+        height: 900px;
+        background-color: black;
+    }
+
+    .accept-3-btn {
+        /* width: 100%; */
+        width: 100%;
+        /* margin: 0;
+        padding: 0; */
+    }
+
+    .location {
+        /* margin-top: 600px; */
+        /* padding-top: 500px; */
+        width: 100%;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 138.6%;
+        /* or 25px */
+        text-align: center;
+        text-transform: uppercase;
+        padding: 0;
+        padding-top: 40px;
+    }
+
+    .map {
+        display: none;
+    }
+    .mob-map {
+        /* background-color: red; */
+        background: url(/desktop.sf/image/mob-map.png) center no-repeat;
+        width: 90%;
+        margin-left: 5%;
+        height: 255px;
+        margin-top: 40px;
+        /* margin-top: 600px; */
+    }
+    .social-logo {
+        /* margin: 0 auto; */
+        all: unset; 
+        /* background-color: red; */
+        display: flex;
+        width: 20%;
+        margin: 0 auto;
+        padding-top: 30px;       
+    }
+    .mail-logo {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (min-width: 377px) {
+    .fp-mobile-pic {
+        display: none;
+    }
+    .second-part-mob-img {
+        display: none;
+    }
+    .second-part-mob-title {
+        display: none;
+    }
+    .control-desc-mob {
+        display: none;
+    }
+    .mob-user-content {
+        display: none;
+    }
+    
+}
