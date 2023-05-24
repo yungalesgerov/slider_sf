@@ -25,7 +25,8 @@ body {
 }
 
 .main-header-container {
-    width: 87.22%;
+    /* width: 87.22%; */
+    width: 80%;
     margin-left: 6.4%;
     display: flex;
     padding-top: 24px;
@@ -73,17 +74,24 @@ body {
 }
 
 .number {
-
+    /* background-color: red;                    */
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 11px;
     line-height: 15px;
-    text-align: right;
+    /* text-align: right; */
     text-decoration-line: underline;
-    width: 10%;
+    /* width: 10%; */
     height: 16px;
     color: #fff;
+    /* width: 30px; */
+    margin: 0;
+    margin-top: -100px;
+    padding: 0;
+}
+.for-number {
+    margin-top:-2px;
 }
 
 .request-btn {
@@ -101,6 +109,7 @@ body {
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     cursor: pointer;
     margin-top: -10px;
+    margin-right: 10%;
 }
 
 .main-bg {
@@ -169,13 +178,14 @@ body {
     box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
     color: #FFFFFF;
     border-radius: 2px;
+    /* width: 100%; */
 }
 .btn-settings:hover{
     transform: scale(1.2);
     cursor: pointer;
 }
 .submit-btn {
-    width: 100%;
+    width: 70%;
     height: 51px;
     background: none;
     color: #FFFFFF;
@@ -189,7 +199,7 @@ body {
 }
 
 .calculate {
-    width: 100%;
+    width: 70%;
 
     border: none;
 }
@@ -202,6 +212,7 @@ body {
 
 .submit {
     width: 30.61%;
+    margin-left: -10%;
 }
 
 .title-buttons {
@@ -497,6 +508,12 @@ body {
     display: flex;
     justify-content: space-between;
     padding-bottom: 44.19px;
+}
+.user-input-name {
+    width: 24%;
+}
+.user-input-phone {
+    width: 24%;
 }
 
 .user-content-input {
@@ -1081,6 +1098,7 @@ custom-checkbox+label {
 .color-text {
     background-color: #181818;
     color: white;
+    width: 100%;
 }
 
 
@@ -1176,6 +1194,7 @@ custom-checkbox+label {
     position: relative;
     background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
     height: 100%;
+    width: 100%;
 }
 
 .contact-address-container {
@@ -1244,6 +1263,7 @@ custom-checkbox+label {
     margin-top: -1px;
     list-style: none;
     display: flex;
+    width: 100%;
 }
 
 .footer-content-container {

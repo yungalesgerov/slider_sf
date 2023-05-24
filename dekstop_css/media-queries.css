@@ -1,11 +1,15 @@
 @media screen and (max-width:376px) {
     body {
-        max-width: 375px;
+        max-width: none;
+        max-width: 376px;
+        margin: 0;
+        padding: 0;
+        /* max-width: 360px; */
     }
 
     .main-desktop-container {
         /* min-width: 375px; */
-        max-width: 375px;
+        max-width: none;
         height: 5159px;
         /* background-color: aqua; */
 
@@ -13,19 +17,25 @@
 
     .main-header {
         height: 57px;
-        max-width: 375px;
+        /* max-width: 375px; */
+        width: 100%;
         /* background-color: red; */
     }
 
+    .main-header-container {
+        width: 87%;
+        margin-left: 10%;
+    }
+
     .main-content {
-        max-width: 375px;
+        max-width: none;
         height: 5100px;
 
     }
 
     .main-bg {
         height: 476px;
-        max-width: 375px;
+        max-width: none;
 
         background: url("../image/about-img.png");
         background-size: cover;
@@ -35,8 +45,9 @@
     }
 
     .main-overlay {
-        max-width: 375px;
+        max-width: none;
         height: 476px;
+        width: 100%;
     }
 
     .main-footer {
@@ -59,9 +70,17 @@
     }
 
     .number {
-        min-width: 107px;
+        /* min-width: 107px; */
+        width: 100%;
         height: 12px;
-        float: right;
+        /* float: right; */
+        /* float: left; */
+    }
+
+    .for-number {
+        width: 40%;
+        margin-right: 0%;
+        padding: 0;
     }
 
     .about {
@@ -99,17 +118,26 @@
 
     .title-buttons {
         display: inline-block;
+        width: 100%;
 
     }
 
     .cost {
-        width: 171.3%;
+        width: 100%;
+    }
 
+    .cost button {
+        width: 100%;
+    }
+
+    .submit button {
+        width: 100%;
     }
 
     .submit {
         margin-top: 26px;
-        width: 171.3%;
+        width: 100%;
+        margin-left: 0;
     }
 
     .fp-switch-elem {
@@ -148,6 +176,8 @@
 
     .first-part {
         height: 1553px;
+        width: 100%;
+        max-width: none;
     }
 
     .completed-projects {
@@ -167,11 +197,11 @@
     }
 
     .fp-mobile-pic {
-        min-width: 326px;
+        width: 100%;
         height: 241.55px;
         /* margin: 0 auto; */
         /* margin-top: 10px; */
-        margin-left: -10.2%;
+        /* margin-left: -10.2%; */
         background: url(/desktop.sf/image/cp-tv-img.png) center no-repeat;
         background-size: cover;
         display: flex;
@@ -184,8 +214,19 @@
 
     .fp-mobile-right {
         /* float: right; */
-        padding-left: 227px;
-        padding-top: 100px;
+        padding-left: 62%;
+        padding-top: 103px;
+        /* padding-right: 10%; */
+        /* margin-right: 10%; */
+    }
+
+    .fp-mobile-left svg {
+        width: 80%;
+    }
+
+    .fp-mobile-right svg {
+        /* padding-left: 200%; */
+        width: 80%;
     }
 
     .control-container {
@@ -202,7 +243,7 @@
         font-size: 22px;
         line-height: 138.6%;
         /* or 30px */
-        width: 224px;
+        width: 100%;
         text-align: center;
         text-transform: uppercase;
         padding-top: 58px;
@@ -225,7 +266,7 @@
     }
 
     .control-broadcast {
-        width: 325px;
+        width: 100%;
         height: 207px;
         /* background-color: red; */
         background: url(../image/mobile-control.png) center no-repeat;
@@ -333,16 +374,18 @@
 
     input {
         all: unset;
-        width: 325px;
+        width: 100%;
     }
 
     .user-input-name {
         /* all: unset; */
         padding-bottom: 62.99px;
+        width: 100%;
     }
 
     .user-input-phone {
         padding-bottom: 26.54px;
+        width: 100%;
     }
 
     .accept {
@@ -355,12 +398,13 @@
     }
 
     .user-content-btn {
-        width: 325px;
+        width: 100%;
         margin-top: 40px;
     }
 
     .second-part-mob-container {
         display: none;
+        width: 100%;
     }
 
     .img-service {
@@ -382,10 +426,6 @@
 
     .client-content {
         display: none;
-    }
-
-    .sp-line-logo {
-        /* width: 32px; */
     }
 
     .sp-logo {
@@ -440,7 +480,7 @@
     }
 
     .second-part-mob-title {
-        width: 325px;
+        width: 100%;
         height: 66px;
         margin-top: 1000px;
         font-family: 'Yeseva One';
@@ -490,10 +530,12 @@
         background: black;
         margin-top: -200px;
     }
+
     .contact-address-container {
         width: 100%;
         margin: 0;
     }
+
     .question-container {
         width: 100%;
         height: 406px;
@@ -503,7 +545,7 @@
         /* margin-top: 220px; */
         margin-top: 20px;
         background-color: black;
-        position:inherit;
+        position: inherit;
     }
 
     .merge-inputs {
@@ -558,6 +600,7 @@
     .map {
         display: none;
     }
+
     .mob-map {
         /* background-color: red; */
         background: url(/desktop.sf/image/mob-map.png) center no-repeat;
@@ -567,15 +610,17 @@
         margin-top: 40px;
         /* margin-top: 600px; */
     }
+
     .social-logo {
         /* margin: 0 auto; */
-        all: unset; 
+        all: unset;
         /* background-color: red; */
         display: flex;
         width: 20%;
         margin: 0 auto;
-        padding-top: 30px;       
+        padding-top: 30px;
     }
+
     .mail-logo {
         padding-left: 20px;
     }
@@ -584,18 +629,38 @@
 @media screen and (min-width: 377px) {
     .fp-mobile-pic {
         display: none;
+        /* width: 100%; */
     }
+
     .second-part-mob-img {
         display: none;
     }
+
     .second-part-mob-title {
         display: none;
     }
+
     .control-desc-mob {
         display: none;
     }
+
     .mob-user-content {
         display: none;
     }
-    
+
+    .main-desktop-container {
+        width: 100%;
+    }
+
+    .main-header {
+        width: 100%;
+    }
+
+    .main-overlay {
+        width: 100%;
+    }
+
+    .main-content {
+        width: 100%;
+    }
 }
