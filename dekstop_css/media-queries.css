@@ -1,7 +1,7 @@
 @media screen and (max-width:376px) {
     body {
         max-width: none;
-        max-width: 376px;
+        /* max-width: 376px; */
         margin: 0;
         padding: 0;
         /* max-width: 360px; */
@@ -9,10 +9,13 @@
 
     .main-desktop-container {
         /* min-width: 375px; */
-        max-width: none;
+        /* max-width: none; */
+        width: 100%;
+        /* width: 700px; */
         height: 5159px;
         /* background-color: aqua; */
-
+        /* margin: 0 auto; */
+        /* margin-left: 10%; */
     }
 
     .main-header {
@@ -73,6 +76,7 @@
         /* min-width: 107px; */
         width: 100%;
         height: 12px;
+        color: #FFFFFF;
         /* float: right; */
         /* float: left; */
     }
@@ -197,7 +201,7 @@
     }
 
     .fp-mobile-pic {
-        width: 100%;
+        width: 104%;
         height: 241.55px;
         /* margin: 0 auto; */
         /* margin-top: 10px; */
@@ -662,5 +666,56 @@
 
     .main-content {
         width: 100%;
+    }
+}
+@media screen and (min-width: 2000px) {
+    .main-header-container {
+        width: 50%;
+        /* background-color: red; */
+        margin: 0 auto;
+    }
+    .title-content-container {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .control-broadcast {
+        display: none;
+    }
+    .second-part {
+        display: none;
+    }
+    .third-part {
+        display: none;
+    }
+    .client-content {
+        display: none;
+    }
+    .contact-address {
+        display: none;
+    }
+    .main-content {
+        height: 1780px;
+    }
+    .main-footer {
+        display: none;
+    }
+    .main-desktop-container {
+        height: 1870px;
+        background-color: black;
+    }
+    .fp-main-content {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .control-logo {
+        margin-top: 20px;
+    }
+    .submit {
+        margin-left: -8%;
+    }
+}
+@media screen and (min-width: 2280px) {
+    .control-logo {
+        margin-top: 0;
     }
 }

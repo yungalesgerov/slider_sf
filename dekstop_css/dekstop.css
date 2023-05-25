@@ -84,7 +84,7 @@ body {
     text-decoration-line: underline;
     /* width: 10%; */
     height: 16px;
-    color: #fff;
+    color: #E3B873;
     /* width: 30px; */
     margin: 0;
     margin-top: -100px;
@@ -109,6 +109,7 @@ body {
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     cursor: pointer;
     margin-top: -10px;
+    border: none;
     /* margin-right: 10%; */
 }
 
@@ -212,7 +213,7 @@ body {
 
 .submit {
     width: 30.61%;
-    margin-left: -10%;
+    margin-left: -7%;
 }
 
 .title-buttons {
@@ -568,6 +569,7 @@ custom-checkbox+label {
 
 .user-content-btn {
     width: 26%;
+    border: none;
 }
 
 .accept {
