@@ -343,6 +343,7 @@ body {
     border: 0;
     height: 1.54px;
     width: 100%;
+    margin-top: 20px;
     /* display: none; */
 }
 .hr-enable {
