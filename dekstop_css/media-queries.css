@@ -671,6 +671,12 @@
     }
 }
 @media screen and (min-width: 2000px) {
+    .hr-active {
+        margin-top: 6px;
+    }
+    .fp-content-navbar {
+        width: 54%;
+    }
     .main-header-container {
         width: 50%;
         /* background-color: red; */

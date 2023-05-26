@@ -290,7 +290,8 @@ body {
 }
 
 .fp-content-navbar {
-    width: 49.6%;
+    /* width: 49.6%; */
+    width: 54%;
     margin-left: 44.98%;
     height: 24px;
     margin-top: -458px;
