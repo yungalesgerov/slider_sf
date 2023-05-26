@@ -44,11 +44,13 @@ body {
     color: #E3B873;
     display: flex;
 }
-
+.link-home {
+    color: #E3B873;
+}
 .main-links {
     width: 40.37%;
     height: 11px;
-    background-color: #black;
+    background-color: black;
     padding-top: 1px;
 }
 
@@ -90,8 +92,9 @@ body {
     margin-top: -100px;
     padding: 0;
 }
+
 .for-number {
-    margin-top:-2px;
+    margin-top: -2px;
 }
 
 .request-btn {
@@ -181,10 +184,12 @@ body {
     border-radius: 2px;
     /* width: 100%; */
 }
-.btn-settings:hover{
+
+.btn-settings:hover {
     transform: scale(1.2);
     cursor: pointer;
 }
+
 .submit-btn {
     width: 70%;
     height: 51px;
@@ -318,6 +323,7 @@ body {
     transform: scale(1.4);
     color: #E3B873;
 }
+
 .fp-navbar-btn:focus {
     /* background-color: #aaa; */
     /* border: 2px solid #E3B873; */
@@ -346,12 +352,15 @@ body {
     margin-top: 20px;
     /* display: none; */
 }
+
 .hr-enable {
     display: unset;
 }
+
 .hr-disable {
     background: black;
 }
+
 .fp-content-image {
     width: 54.10%;
     height: 482px;
@@ -380,6 +389,7 @@ body {
 .fp-switch-elem-arr-right:hover {
     transform: scale(1.4);
 }
+
 .active-dot {
     fill: white;
 }
@@ -484,7 +494,7 @@ body {
 
 .sp-text {
     padding-top: 34.46px;
-    width: 54.26%;
+    width: 80%;
     margin: 0 auto;
     height: 130.91px;
     font-family: 'Nunito Sans';
@@ -511,9 +521,11 @@ body {
     justify-content: space-between;
     padding-bottom: 44.19px;
 }
+
 .user-input-name {
     width: 24%;
 }
+
 .user-input-phone {
     width: 24%;
 }
@@ -1262,11 +1274,14 @@ custom-checkbox+label {
     font-size: 11px;
     line-height: 15px;
     color: #FFFFFF;
+    /* background-color: aqua; */
     justify-content: space-between;
+    margin: 0 auto;
     margin-top: -1px;
     list-style: none;
     display: flex;
-    width: 100%;
+    /* width: 100%; */
+    width: 94%;
 }
 
 .footer-content-container {
@@ -1316,10 +1331,17 @@ custom-checkbox+label {
     line-height: 15px;
     text-align: center;
     text-transform: uppercase;
-
+    border: none;
     color: #FFFFFF;
 }
 
 input {
     border: none;
+}
+
+.footer-main-links {
+    width: 60%;
+    /* background-color: red; */
+    padding: 0;
+    margin: 0;
 }

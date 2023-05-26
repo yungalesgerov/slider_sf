@@ -633,8 +633,10 @@
 @media screen and (min-width: 377px) {
     .fp-mobile-pic {
         display: none;
+        /* background: red; */
         /* width: 100%; */
     }
+    
 
     .second-part-mob-img {
         display: none;
@@ -717,5 +719,158 @@
 @media screen and (min-width: 2280px) {
     .control-logo {
         margin-top: 0;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .main-links {
+        width: 50%;
+        font-size: 8px;
+    }
+    .control-title {
+        /* padding-top: 40px; */
+        width: 100%;
+        /* margin-left: 2%; */
+    }
+    .control-logo {
+        /* margin-right: 6%; */
+        /* background-color: aqua; */
+        margin-left: 44%;
+        /* margin: 0; */
+        /* width: 10%; */
+    }
+    .sp-text {
+        font-size: 14px;
+        width: 100%;
+        word-wrap:break-word;
+    }
+    .user-content {
+        width: 100%;
+    }
+    .agree {
+        width: 200%;
+        word-wrap: normal;
+        /* background-color: red; */
+        /* margin-left: 10%; */
+        padding-left: 14%;
+        margin-top: -22px;
+    }
+    .accept {
+        margin-left: 26%;
+        /* background-color: red; */
+        /* padding-bottom: 130px; */
+    }
+    .repair-text {
+        /* background-color: red; */
+        width: 200%;
+        margin-left: -54%;
+        /* margin: 0 auto; */
+    }
+    .repair-logo {
+        /* background-color: aqua; */
+        margin-left: 5%;
+    }
+    .card-text ul {
+        font-size: 10px;
+        /* color: black; */
+        word-wrap: break-word;
+    }
+    .card-price-text {
+        font-size: 12px;
+        /* margin-top: -100px; */
+    }
+    .request-info {
+        font-size: 18px;
+        width: 100%;
+    }
+    .case-text {
+        /* width: 100%; */
+        font-size: 23px ;
+        /* padding-top: 100px; */
+        margin-left: 6%;
+    }
+    .design-list {
+        /* font-size: 15px; */
+        margin-left: 0;
+        width: 30%;
+        /* background-color: red; */
+        padding-top: 20px;
+    }
+    .recommend {
+        width: 100%;
+    }
+    .client-card-text {
+        font-size: 10px;
+    }
+    .footer-main-links {
+        width: 80%;
+        /* font-size: 8px; */
+        
+    }
+    .footer-main-navigation {
+        width: 80%;
+        /* background-color: red; */
+        margin-left: 0%;
+    }
+    .meters, .days {
+        font-size: 13px;
+    }
+    .location {
+        width: 100%;
+    }
+    .social-logo {
+        width: 10%;
+    }
+    .fp-navbar-btn {
+        font-size: 6px;
+    }
+    .hr-active {
+        /* padding-top: 20px; */
+        margin-top: 40px;
+    }
+    .hr-active {
+        margin-top: 22px;
+    }
+}
+@media screen and (max-width:1270px) {
+    .location {
+        width: 100%;
+    }
+    .social-logo {
+        width: 10%;
+    }
+    .card-price-text {
+        font-size: 16px;
+    }
+    .sp-text {
+        /* font-size: 14px; */
+        width: 100%;
+    }
+    .control-title {
+        width: 100%;
+    }
+    .fp-navbar-btn {
+        font-size: 11px;
+        word-wrap: break-word;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .fp-navbar-btn {
+        width: 100%;
+        font-size: 14px;
+    }
+    .nav-2-btn {
+        /* background-color: red; */
+        word-wrap: normal;
+        /* height: 40px; */
+    }
+    
+}
+@media screen and (max-width:730px) {
+    .hr-active {
+        margin-top: 40px;
+    }
+    .fp-navbar-item .hr-active {
+        margin-top: 20px;
     }
 }
